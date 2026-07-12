@@ -1,0 +1,19 @@
+# FACE Personal KB Configuration.
+# Fill in the two TODO values, then delete these top comment lines.
+
+kb:
+  name: "TODO Your Name — Personal KB"
+  main_ref: main
+  language: en
+  org_type: personal        # marks this as a Personal KB (L0), not an org KB
+
+admins:
+  - TODO-your-github-username
+
+# A personal KB has one owner — you — for every folder.
+owners:
+  1-brain: TODO-your-github-username
+  2-workspace: TODO-your-github-username
+  3-professional: TODO-your-github-username
+  4-credentials: TODO-your-github-username
+  5-marketplace: TODO-your-github-username

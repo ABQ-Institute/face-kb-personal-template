@@ -1,0 +1,5 @@
+# face-lint per-KB config.
+# GEMINI.md is a boot adapter (like CLAUDE.md, which is exempt by default) —
+# excluded until the lint's built-in boot-file exemption list includes it.
+exclude:
+  - GEMINI.md

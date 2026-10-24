@@ -1,6 +1,6 @@
-# 4. Credentials 💼
+# 6. Credentials
 
-> **Professional domain — selective disclosure.** Revealed to specific parties per your grant, never public by default.
+> **Whoever you grant — selective disclosure.** Revealed to specific parties per your grant, never public by default.
 
 Verifiable career facts: history, certifications, and employer attestations.
 

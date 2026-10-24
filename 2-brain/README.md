@@ -1,11 +1,12 @@
-# 1. Brain 🏠
+# 2. How you think
 
-> **Personal domain — never leaves this KB.** Not grantable to any company agent.
+> **Only you** — never shared. No grant can name this folder.
 
-How you think and work: your judgment style, methods, heuristics, and lessons learned. This is what makes *your* agent act like *you*.
+How you think and work, one item per page — each with why it holds and how to apply it. This is what makes *your* agent act like *you*.
 
-1. [Judgment Style](1-judgment-style.md) — how you decide, what you optimise for
-2. [Methods & Heuristics](2-methods-and-heuristics.md) — your working methods and rules of thumb
-3. [Learnings](3-learnings.md) — a running log of lessons that changed how you work
+1. [Judgment](1-judgment/README.md) — how you decide, what you optimise for
+2. [Methods](2-methods/README.md) — your working methods and rules of thumb
+3. [Learnings](3-learnings/README.md) — lessons that changed how you work
+4. [Rules](4-rules/README.md) — rules your agents follow when they work for you
 
-**Start here:** fill in [Judgment Style](1-judgment-style.md) first — it has the highest impact on how your agent behaves.
+**Start here:** fill in [Judgment Style](1-judgment/1-judgment-style.md) first — it has the highest impact on how your agent behaves.

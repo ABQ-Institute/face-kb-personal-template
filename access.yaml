@@ -1,21 +1,22 @@
 # access.yaml — who may use what from this KB. You own this file.
+# Only professional, credentials and marketplace folders can be shared; everything else never leaves your KB.
 #
 # FACE Studio reads these rules and enforces them (it is the executor, not
 # the arbiter). The Connections UI in Studio edits this file for you; editing
 # it by hand is equally valid — the file is the source of truth.
 #
 # ── The one rule you cannot change ─────────────────────────────────────────
-# 1-brain/ and 2-workspace/ (the personal domain) are NOT grantable.
-# Studio rejects and ignores any grant naming them, whatever is written here.
-# Only the professional domain (3-professional/, 4-credentials/,
-# 5-marketplace/) can be exposed — per agent, per folder, revocable.
+# A grant can name only 5-professional/, 6-credentials/ and 7-marketplace/.
+# Studio rejects and ignores a grant naming any other folder — 1-life/,
+# 2-brain/, 3-orgs/, 4-workspace/ or one you add later — whatever is written
+# here. Grants are per agent, per folder, revocable.
 # ────────────────────────────────────────────────────────────────────────────
 #
 # Grant shape (added by Studio Connections, or by hand):
 #   grants:
 #     - agent: marketing-agent        # Studio agent id
 #       org: acme                     # org slug the agent belongs to
-#       folders: [3-professional]     # professional-domain folders only
+#       folders: [5-professional]     # only the three folders above
 #       granted_at: 2026-07-12
 
 version: 1

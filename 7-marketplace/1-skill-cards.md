@@ -2,6 +2,7 @@
 type: reference
 description: "Public skill cards — what I (or my agent) offer, in the FACE marketplace card shape."
 timestamp: 2026-07-12
+class: skill-card
 ---
 
 # 7.1. Skill Cards

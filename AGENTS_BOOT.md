@@ -42,6 +42,10 @@ defence in depth.
 - Exception: `access.yaml` edits made through FACE Studio's Connections UI
   land as direct commits (a revocation must take effect immediately).
 - Never copy Only-you content (`1-life/`, `2-brain/`, `3-orgs/`, `4-workspace/`) outside this KB.
+- Never write into a sealed folder — the ones listed under `sealed:` in
+  `0-meta/life-config.yaml` (by default `1-life/3-health`). Sealing isn't
+  available yet, so a sealed folder takes no writes: leave that part out and
+  tell the owner in your own session.
 - Write KB content in the language set in `kb-config.yaml`.
 
 ---

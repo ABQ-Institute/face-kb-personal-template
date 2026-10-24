@@ -2,6 +2,7 @@
 type: profile
 description: "How I prefer to work — style, tone, and collaboration defaults for agents acting with or for me."
 timestamp: 2026-07-12
+class: working-preference
 ---
 
 # 5.2. Working Preferences

@@ -2,6 +2,7 @@
 type: reference
 description: "Employer-co-signed skill attestations — bilateral, added by mutual consent."
 timestamp: 2026-07-12
+class: credential
 ---
 
 # 6.3. Attestations

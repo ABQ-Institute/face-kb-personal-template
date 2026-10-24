@@ -2,7 +2,7 @@
 
 > **Only you** — never shared. No grant can name this folder.
 
-How you think and work, one item per page — each with why it holds and how to apply it. This is what makes *your* agent act like *you*.
+How you think and work — each item with why it holds and how to apply it. This is what makes *your* agent act like *you*.
 
 1. [Judgment](1-judgment/README.md) — how you decide, what you optimise for
 2. [Methods](2-methods/README.md) — your working methods and rules of thumb

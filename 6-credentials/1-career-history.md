@@ -2,6 +2,7 @@
 type: profile
 description: "Career history — roles, scope, and outcomes."
 timestamp: 2026-07-12
+class: credential
 ---
 
 # 6.1. Career History

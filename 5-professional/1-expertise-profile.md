@@ -2,6 +2,7 @@
 type: profile
 description: "My professional expertise — domains, depth, and evidence — curated for company agents I grant access to."
 timestamp: 2026-07-12
+class: expertise
 ---
 
 # 5.1. Expertise Profile

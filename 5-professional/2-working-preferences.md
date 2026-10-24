@@ -4,7 +4,7 @@ description: "How I prefer to work — style, tone, and collaboration defaults f
 timestamp: 2026-07-12
 ---
 
-# 3.2. Working Preferences
+# 5.2. Working Preferences
 
 > Template — company agents use this to adapt to you. Per FACE conflict rules, style preferences yield to company policy where they clash.
 

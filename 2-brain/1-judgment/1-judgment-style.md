@@ -2,9 +2,10 @@
 type: profile
 description: "How I make decisions — what I optimise for, my defaults, and where I deviate from convention."
 timestamp: 2026-07-12
+class: judgment
 ---
 
-# 1.1. Judgment Style
+# 2.1.1. Judgment Style
 
 > Template — replace the prompts below with your own answers. Refresh the `timestamp` when you edit.
 

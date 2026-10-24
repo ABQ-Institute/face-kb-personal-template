@@ -2,9 +2,10 @@
 type: reference
 description: "Personal projects and their current state."
 timestamp: 2026-07-12
+class: project
 ---
 
-# 2.3. Projects
+# 4.1.1. Projects
 
 > Template — one section per project; archive finished ones at the bottom.
 

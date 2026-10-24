@@ -4,9 +4,9 @@ description: "My professional expertise — domains, depth, and evidence — cur
 timestamp: 2026-07-12
 ---
 
-# 3.1. Expertise Profile
+# 5.1. Expertise Profile
 
-> Template — this is the professional *curated* view (the raw version lives in 1-brain/, private).
+> Template — this is the professional *curated* view (the raw version lives in 2-brain/, private).
 
 ## Domains
 

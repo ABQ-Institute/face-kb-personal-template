@@ -4,7 +4,7 @@ description: "Public skill cards — what I (or my agent) offer, in the FACE mar
 timestamp: 2026-07-12
 ---
 
-# 5.1. Skill Cards
+# 7.1. Skill Cards
 
 > Template — one card per skill, in the FACE Skill Card shape (public layer only; implementation details never go here).
 

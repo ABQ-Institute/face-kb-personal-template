@@ -2,9 +2,10 @@
 type: reference
 description: "Running log of lessons that changed how I work — newest first."
 timestamp: 2026-07-12
+class: learning
 ---
 
-# 1.3. Learnings
+# 2.3.1. Learnings
 
 > Template — newest first. One entry per lesson; date it.
 

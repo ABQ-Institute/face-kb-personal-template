@@ -4,7 +4,7 @@ description: "Career history — roles, scope, and outcomes."
 timestamp: 2026-07-12
 ---
 
-# 4.1. Career History
+# 6.1. Career History
 
 > Template — newest first.
 

@@ -2,9 +2,10 @@
 type: reference
 description: "My working methods and rules of thumb, by situation."
 timestamp: 2026-07-12
+class: method
 ---
 
-# 1.2. Methods & Heuristics
+# 2.2.1. Methods & Heuristics
 
 > Template — one heuristic per row; grow it over time.
 

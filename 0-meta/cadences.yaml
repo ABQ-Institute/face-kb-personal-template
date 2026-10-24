@@ -1,0 +1,39 @@
+# When your agent asks you something, and where the answer goes.
+#
+# Your own agent reads this file and starts each cadence on time; if you have
+# no agent of your own, FACE reminds you instead. No answer files nothing and
+# nags nobody. Edit the questions freely — they are yours.
+version: 1
+cadences:
+  daily-checkin:
+    every: day
+    form: short               # two questions, about 30 seconds
+    questions:
+      - "How was yesterday, in a line?"
+      - "What matters most today?"
+    writes:
+      path: 1-life/1-journal/{date}-check-in.md
+      class: checkin
+
+  weekly-review:
+    every: week
+    questions:
+      - "What went well this week?"
+      - "What didn't, and what will you change?"
+      - "What is the one thing for next week?"
+    includes:
+      - auto-merge-digest     # what your agent filed this week without asking
+      - one-open-follow-up    # a single open item, asked as a question
+    writes:
+      path: 1-life/6-reviews/{date}-weekly-review.md
+      class: review
+
+  quarterly:
+    every: quarter
+    questions:
+      - "Which goals moved this quarter, and which stalled?"
+      - "What did you learn that is yours to keep?"
+      - "Is what you share in 5-professional still true?"
+    writes:
+      path: 1-life/6-reviews/{date}-quarterly-review.md
+      class: review

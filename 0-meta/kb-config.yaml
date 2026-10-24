@@ -12,8 +12,10 @@ admins:
 
 # A personal KB has one owner — you — for every folder.
 owners:
-  1-brain: TODO-your-github-username
-  2-workspace: TODO-your-github-username
-  3-professional: TODO-your-github-username
-  4-credentials: TODO-your-github-username
-  5-marketplace: TODO-your-github-username
+  1-life: TODO-your-github-username
+  2-brain: TODO-your-github-username
+  3-orgs: TODO-your-github-username
+  4-workspace: TODO-your-github-username
+  5-professional: TODO-your-github-username
+  6-credentials: TODO-your-github-username
+  7-marketplace: TODO-your-github-username

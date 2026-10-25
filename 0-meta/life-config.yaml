@@ -1,0 +1,8 @@
+version: 1
+inner_work: false
+sealed:
+  - 1-life/3-health
+  - 1-life/5-inner
+default_classes:
+  5-professional: expertise
+  6-credentials: credential

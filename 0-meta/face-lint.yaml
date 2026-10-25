@@ -3,3 +3,9 @@
 # excluded until the lint's built-in boot-file exemption list includes it.
 exclude:
   - GEMINI.md
+# Folders whose pages are named by date (2026-10-24-check-in.md): the date
+# orders them, so they need no index number (face-kb-core B3/B5).
+datedFolders:
+  - 1-journal
+  - 6-reviews
+  - 5-inner

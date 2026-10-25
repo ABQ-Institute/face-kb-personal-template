@@ -21,17 +21,19 @@ returns `304 Not Modified` when it is unchanged.
 
 (API agents: `curl` it. Web tools: open the URL and paste the contents in.)
 
-## This KB has two domains — treat them differently
+## This KB groups its folders by who can see them — treat them differently
 
-| Domain | Folders | Rule |
+| Group | Folders | Rule |
 |---|---|---|
-| 🏠 **Personal** | `1-brain/`, `2-workspace/` | **Never leaves this KB.** Do not quote, summarise, or copy its content into any company KB, external message, or shared surface. |
-| 💼 **Professional** | `3-professional/`, `4-credentials/`, `5-marketplace/` | May be exposed to company agents — but **only** via FACE Studio grants declared in `access.yaml`, never by you directly. |
+| **Only you** | `1-life/`, `2-brain/`, `3-orgs/`, `4-workspace/` | **Never leaves this KB.** Do not quote, summarise, or copy its content into any company KB, external message, or shared surface. |
+| **Whoever you grant** | `5-professional/`, `6-credentials/` | May be exposed to company agents — but **only** via FACE Studio grants declared in `access.yaml`, never by you directly. |
+| **Anyone** | `7-marketplace/` | Meant to be served publicly; until public serving exists, shared only by grant, like the folders above. |
 
 You are the *individual's own* agent. Company agents never read this repo:
 they receive granted professional folders through the FACE Studio broker.
-The non-grantability of `1-brain/` and `2-workspace/` is enforced by Studio's
-grant schema — but respect it at your layer too: defence in depth.
+The non-grantability of `1-life/`, `2-brain/`, `3-orgs/` and `4-workspace/`
+is enforced by Studio's grant schema — but respect it at your layer too:
+defence in depth.
 
 ## Non-negotiable rules
 
@@ -39,7 +41,11 @@ grant schema — but respect it at your layer too: defence in depth.
   (the owner is their own reviewer — FACE Studio offers one-click merge).
 - Exception: `access.yaml` edits made through FACE Studio's Connections UI
   land as direct commits (a revocation must take effect immediately).
-- Never copy personal-domain content (`1-brain/`, `2-workspace/`) outside this KB.
+- Never copy Only-you content (`1-life/`, `2-brain/`, `3-orgs/`, `4-workspace/`) outside this KB.
+- Never write into a sealed folder — the ones listed under `sealed:` in
+  `0-meta/life-config.yaml` (by default `1-life/3-health`). Sealing isn't
+  available yet, so a sealed folder takes no writes: leave that part out and
+  tell the owner in your own session.
 - Write KB content in the language set in `kb-config.yaml`.
 
 ---

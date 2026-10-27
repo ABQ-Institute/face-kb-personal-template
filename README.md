@@ -26,7 +26,7 @@ Folders: [`7-marketplace`](7-marketplace/README.md) (Marketplace)
 
 ## How things get here
 
-Your agent turns what you give it — a journal entry, a check-in, a transcript — into changes across these folders. Most merge on their own; anything shared, anything in `2-brain` and anything unusual waits for you under Change requests.
+Your agent turns what you give it — a journal entry, a check-in, a transcript — into changes across these folders. Those that pass every check publish on their own; anything shared, anything in `2-brain` and anything unusual waits for you under Change requests.
 
 ---
 
